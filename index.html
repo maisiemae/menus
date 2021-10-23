@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+    <div id='tab_buttons'>
+        <button id='home_button' type="button" onclick="onClickHome()">Home</button>
+        <button id='about_button' type="button" onclick="onClickAbout()">About</button>
+        <button id='interact_button' type="button" onclick="onClickInteract()">Interact</button>
+    </div>
+</header>
+
+<div id="home_tab" class="tab">
+    <h1>Home</h1>
+</div>
+
+<div id="about_tab" class="tab">
+    <h1>About</h1>
+    <h3>maisie</h3>
+</div>
+
+<div id="interact_tab" class="tab">
+    <h1>Interact</h1>
+    <button id='counter_button' onclick="countClick()">Increase Counter</button> <br>
+    <label id='counter_label'>Counter: 0</label>
+</div>
+
+
+</body>
+
+</html>

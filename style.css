@@ -1,0 +1,15 @@
+#about_tab {
+    display:none;
+}
+#interact_tab {
+    display:none;
+}
+#home_tab {
+    display:none;
+}
+#tab_buttons {
+    display:flex;
+    justify-content: center;
+    padding:20px;
+    background-color:darkslategray;
+}
